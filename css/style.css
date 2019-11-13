@@ -1,0 +1,44 @@
+@import url("normalize.css");
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-item-1{
+    flex: 1;
+}
+
+.flex-item-2{
+    flex: 2;
+}
+
+.topo{
+    background-color: tomato;
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: aliceblue;
+}
+
+.corpo{
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+.texto{
+    text-align: justify;
+    padding: 20px;
+}
